@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 20px;
+    background-color:white;
+}
+
+div #Header-Icon{
+    height:10vh; 
+    margin-left: 80px;  
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    height: 10vh;
+    list-style-type: none;
+    margin-top: 23px;
+    margin-right: 80px;
+    font-family: "Inter", Sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+    letter-spacing: 1px;
+
+}
+ li ul{
+    display: none;
+}
+nav ul li:hover #menu
+{
+    display: block;
+    position: relative;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+   padding-right: 12px;
+   line-height: 32px;
+   
+}
+nav ul li:hover{
+    color: rgb(110, 61, 156);
+}
+/* .Background-Image{
+   
+
+    background: no-repeat center bottom scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 150px;
+    padding-top: 2%;
+    font-size: 100%;
+} */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: "Inter", Sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 28px;
+    color: aliceblue;
+  }
+  #introduction{
+    font-weight: bold;
+    font-size: 38px;
+  }
+#makeup-brush{
+    position: absolute;
+    top: 110%;
+    left: 10%;
+  font-family: butler;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 52px;
+    color: #502F8F;
+    line-height: 62px;
+}
+span{
+    font-weight: 500;
+    font-size: 28px;
+}
+#bridal-look{
+    font-family: butler;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 52px;
+    color: #502F8F;
+    line-height: 62px;
+}
+#section2{
+    color: #000000;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 300;
+}
+#bridal-look-text{
+    margin-top: 20%;
+letter-spacing: 3px;
+color: #000000;
+font-size: 22px;
+font-weight: 300;
+}
+#heading{
+color: #502F8F;
+font-size: 22px;
+font-weight:lighter;
+letter-spacing: 3px;
+}
+#inner-text{
+    color: #000000;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+#know-more{
+width: 30%;
+margin-top: 20%;
+border-radius: 0%  20% 0% 20% ;
+border-width: 1px 1px 1px 1px;
+padding: 5px 25px 5px 22px;
+background-color: #502F8F;
+color: aliceblue;
+font-weight: bold;
+font-size: 22px;
+}
+footer{
+    background-color: #502F8F;
+    color: #502F8F;
+    margin-top: 10px;
+    padding-top: 2%;
+    line-height: 40px;; 
+    
+}
+footer h6{
+    color: aliceblue;
+}
+footer ul{
+    padding-top: 6%;
+    list-style-type: none;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: aliceblue;
+}
+footer p{
+    padding-top: 6%;
+    list-style-type: none;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: aliceblue;
+}
+footer p span{
+    font-weight: 800;
+    font-size: 15px;
+    font-family: "Inter", Sans-serif!important;
+    color: aliceblue;
+}
+#svg-icons{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#insta{
+    width: 12%;
+    height:6vh;
+  background-color: white;
+ padding-left: 10px;
+ border-radius: 100%;
+}
+#copy-rights{
+    color: white;
+    border-top: 1px solid white;
+}
+#by-name{
+    text-align: right;
+    margin-left: 790px;
+    font-weight: 300;
+    font-size: 18px;
+}
+#name{
+    font-weight: bold;
+}
+.status{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    justify-content: space-around;
+    margin-top: 200px;
+    color: #502F8F;
+    font-size: 42px;
+    font-weight: bolder;
+}
